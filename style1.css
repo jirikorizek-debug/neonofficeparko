@@ -3696,3 +3696,7 @@ img {
   }
 
 }
+
+body {
+  background: hotpink !important;
+}
