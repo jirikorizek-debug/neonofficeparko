@@ -1,0 +1,2051 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEON office park</title>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
+
+<link rel="stylesheet" href="style1.css">
+
+</head>
+
+<body>
+<div class="bg-overlay"></div>
+<header>
+<nav>
+
+<div class="logo" onclick="showPage('home')">
+<a href="#">
+<img src="logo.png" class="logo">
+</a>
+</div>
+
+<ul>
+<li><a href="#" onclick="showPage('home'); return false;"><strong>Domů</strong></a></li>
+<li><a href="#" onclick="showPage('offices'); return false;"><strong>Kanceláře</strong></a></li>
+<li><a href="#" onclick="showPage('contact'); return false;"><strong>Kontakt</strong></a></li>
+<li class="lang-item">
+  <a href="index.html" class="lang-link active-lang">CZ</a>
+  <span>/</span>
+  <a href="en.html" class="lang-link">EN</a>
+</li>
+
+</ul>
+
+
+</nav>
+</header>
+
+
+<!-- HOME -->
+
+
+<div id="home" class="page active">
+
+<section class="modern-home">
+
+<!-- HERO -->
+
+<div class="hero-section">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-inner">
+
+<div class="hero-left">
+
+<h1>
+<span>NEON</span><br>
+office park Uničov
+</h1>
+
+
+<p>
+Moderní kanceláře<br>
+pro firmy nové generace
+</p>
+
+<div class="orange-line"></div>
+
+      <a href="#" onclick="showPage('offices'); return false;" class="hero-btn">
+        Zobrazit kanceláře
+      </a>
+</div>
+
+</div>
+
+</div>
+<div class="after-hero">
+<!-- FEATURE BAR -->
+
+<div class="feature-bar">
+
+<div class="feature-box">
+<div class="feature-icon"><i class="fa-solid fa-building-user"></i></div>
+<h3>Moderní kanceláře vybavené nábytkem</h3>
+<p>Reprezentativní prostory s důrazem na design a komfort.</p>
+</div>
+
+<div class="feature-box">
+<div class="feature-icon"> <i class="fa-solid fa-square-parking"></i></div>
+<h3>Parkování <strong>20+ míst</strong></h3>
+<p>Dostatek parkovacích míst přímo v areálu.</p>
+</div>
+
+<div class="feature-box">
+<div class="feature-icon"><i class="fa-solid fa-snowflake"></i></div>
+<h3>Klimatizace</h3>
+<p>Každá kancelář má vlastní klimatizaci.</p>
+</div>
+
+<div class="feature-box">
+<div class="feature-icon"><i class="fa-solid fa-location-dot"></i></div>
+<h3>Výborná lokalita</h3>
+<p>Uničov — skvělá dostupnost a klidné prostředí.</p>
+</div>
+
+</div>
+
+<!-- VYBRANÉ KANCELÁŘE -->
+
+<section class="home-offices">
+
+<div class="section-top">
+
+<h2>Vybrané kanceláře</h2>
+
+<a href="#"
+onclick="showPage('offices'); return false;">
+Zobrazit všechny kanceláře →
+</a>
+
+</div>
+
+<div class="office-grid">
+
+<div class="office-card">
+
+<img src="kancelar7.1.jpeg">
+
+<div class="office-info">
+
+<div class="office-badge leased-badge">
+Obsazená
+</div>
+
+<h3>Kancelář č.7</h3>
+
+<p>25,2 m²</p>
+
+<button onclick="showDetail(7)">
+Detail
+</button>
+
+</div>
+
+</div>
+
+<div class="office-card">
+
+<img src="kancelar7.2.jpeg">
+
+<div class="office-info">
+
+<div class="office-badge leased-badge">
+Obsazená
+</div>
+
+<h3>Kancelář č.2</h3>
+
+<p>43 m²</p>
+
+<button onclick="showDetail(2)">
+Detail
+</button>
+
+</div>
+
+</div>
+
+<div class="office-card">
+
+<img src="kancelar7.1.jpeg">
+
+<div class="office-info">
+
+<div class="office-badge leased-badge">
+Obsazená
+</div>
+
+<h3>Kancelář č.10</h3>
+
+<p>19,4 m²</p>
+
+<button onclick="showDetail(10)">
+Detail
+</button>
+
+</div>
+
+</div>
+
+<div class="office-card">
+
+<img src="kancelar7.2.jpeg">
+
+<div class="office-info">
+
+<div class="office-badge leased-badge">
+Obsazeno
+</div>
+
+<h3>Kancelář č.3</h3>
+
+<p>33,6 m²</p>
+
+<button onclick="showDetail(3)">
+Detail
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- O PROJEKTU -->
+
+<section class="project-section">
+
+<div class="project-left">
+
+<h2>O projektu</h2>
+
+<p>
+<strong>NEON office park</strong> je moderní administrativní centrum
+v Uničově. Nabízíme kanceláře různých velikostí
+s důrazem na komfort, technologie a profesionální zázemí.
+</p>
+
+
+
+</div>
+
+<div class="stats-grid">
+
+  <div class="stat-box">
+    <i class="fa-solid fa-ruler-combined stat-icon"></i>
+    <h3>700+ m²</h3>
+    <span>Kancelářských prostor</span>
+  </div>
+
+  <div class="stat-box">
+    <i class="fa-solid fa-building stat-icon"></i>
+    <h3>16</h3>
+    <span>Kanceláří</span>
+  </div>
+
+  <div class="stat-box">
+    <i class="fa-solid fa-chalkboard-user stat-icon"></i>
+    <h3>1</h3>
+    <span>Školící místnost s projektorem až pro 20 lidí</span>
+  </div>
+
+  <div class="stat-box">
+    <i class="fa-solid fa-layer-group stat-icon"></i>
+    <h3>2</h3>
+    <span>Patra</span>
+  </div>
+
+ <div class="stat-box">
+    <i class="fa-solid fa-square-parking stat-icon"></i>
+    <h3>20+</h3>
+    <span>Parkovací míst</span>
+  </div>
+
+   <div class="stat-box">
+    <i class="fa-solid fa-door-open stat-icon"></i>
+    <h3>24/7</h3>
+    <span>Přístup do budovy</span>
+  </div>
+</div>
+
+</section>
+
+<!-- FOTKY -->
+
+<section class="home-gallery">
+
+    <div class="section-top">
+
+        <h2 class="section-title">
+            Fotogalerie společných prostor
+        </h2>
+
+    </div>
+
+    <div class="gallery-home-grid">
+
+        <div class="gallery-item large">
+            <img src="budova.png">
+        </div>
+
+        <div class="gallery-item">
+            <img src="schody.jpeg">
+        </div>
+
+        <div class="gallery-item">
+            <img src="vytah.jpeg">
+        </div>
+
+        <div class="gallery-item wide">
+            <img src="kuchynka.jpeg">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CTA -->
+
+ <section class="premium-cta">
+
+  <div class="cta-content">
+
+    <div class="cta-left">
+
+      <h2>Hledáte moderní kancelář?</h2>
+
+      <p>
+        Ozvěte se nám a připravíme nabídku na míru.
+      </p>
+
+    </div>
+
+    <div class="cta-divider"></div>
+
+    <div class="cta-contact">
+
+      <div class="contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Litovelská 1375, Uničov</span>
+      </div>
+
+      <div class="contact-divider"></div>
+
+      <div class="contact-item">
+         <i class="fa-solid fa-phone"></i>
+
+        <a href="tel:+420601202022">
+          +420 601 20 20 22
+        </a>
+      </div>
+
+      <div class="contact-divider"></div>
+
+      <div class="contact-item">
+         <i class="fa-solid fa-envelope"></i>
+
+        <a href="mailto:info@neonpark.cz">
+          info@neonpark.cz
+        </a>
+      </div>
+
+    </div>
+
+    <a href="#"
+    onclick="showPage('contact'); return false;"
+    class="cta-btn">
+
+      Kontaktovat nás →
+
+    </a>
+
+  </div>
+
+</section>
+
+</div>
+
+</section>
+
+</div>
+
+
+<!-- KANCELÁŘE SECTION -->
+<!-- KANCELÁŘE -->
+<div id="offices" class="page">
+
+<section class="offices-page">
+
+ <!-- HERO -->
+<!-- HERO -->
+<!-- OFFICE HERO -->
+<section class="nx-office-hero">
+
+  <div class="nx-office-overlay"></div>
+
+  <div class="nx-office-container">
+
+    <div class="nx-office-content">
+
+      <span class="nx-office-mini-label">
+       NEON office park Uničov
+      </span>
+
+      <h1 class="nx-office-title">
+        Moderní kanceláře<br>
+        v klidné lokalitě
+      </h1>
+
+      <p class="nx-office-text">
+        Flexibilní kancelářské prostory pro malé i větší firmy
+        s výbornou dostupností a parkováním.
+      </p>
+
+<div class="nx-office-orange-line"></div>
+
+     <button class="nx-office-button" onclick="openNxModal()">
+  Nezávazná poptávka
+</button>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- INFO CARDS -->
+<section class="nx-office-info">
+
+  <div class="nx-office-card">
+    <h3>Flexibilní kanceláře</h3>
+    <p>Pro malé týmy i stabilní firmy </p>
+  </div>
+
+  <div class="nx-office-card">
+    <h3>Zařízené prostory</h3>
+    <p>Možnost využití kanceláří včetně vybavení</p>
+  </div>
+
+  <div class="nx-office-card">
+    <h3>Klimatizace</h3>
+    <p>Komfortní pracovní prostředí po celý rok</p>
+  </div>
+
+  <div class="nx-office-card">
+    <h3>Prosvětlené interiéry</h3>
+    <p>Příjemné pracovní prostředí s přirozeným světlem</p>
+  </div>
+
+</section>
+
+
+<div class="nx-office-table-head">
+  <span>Aktuální nabídka</span>
+  <h2>Dostupnost kanceláří</h2>
+</div>
+<!-- MODAL -->
+
+  <!-- TABLE SECTION -->
+  <section class="offices-content">
+
+
+    <!-- RIGHT -->
+    <div class="table-wrapper">
+
+      <table class="availability-table">
+
+        <thead>
+          <tr>
+            <th>KANCELÁŘ Č.</th>
+            <th>VÝMĚRA</th>
+            <th>ORIENTACE</th>
+            <th>DOSTUPNOST</th>
+            <th>POZNÁMKA</th>
+            <th></th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <!-- 1 PATRO -->
+          <tr class="floor-row">
+            <td colspan="6">1. PATRO</td>
+          </tr>
+
+          <tr>
+            <td>1</td>
+            <td>25,2 m²</td>
+            <td>JZ</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>-</td>
+
+            <td>
+              <button onclick="showDetail(1)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>43 m²</td>
+            <td>Z</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>-</td>
+
+            <td>
+              <button onclick="showDetail(2)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>74,5 m²</td>
+            <td>S</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>-</td>
+
+            <td>
+              <button onclick="showDetail(3)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>21 m²</td>
+            <td>V</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>-</td>
+
+            <td>
+              <button onclick="showDetail(4)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>78 m²</td>
+            <td>V</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>Tato kancelář je sdílený protor s kanceláří č.6, v případě zájmu lze rozdělit</td>
+
+            <td>
+              <button onclick="showDetail(5)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td>22 m²</td>
+            <td>JV</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>Tato kancelář je sdílený protor s kanceláří č.5, v případě zájmu lze rozdělit</td>
+
+            <td>
+              <button onclick="showDetail(6)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>7</td>
+            <td>33,6 m²</td>
+            <td>JZ</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>Tato kancelář je sdílený protor s kanceláří č.8, v případě zájmu lze rozdělit</td>
+
+            <td>
+              <button onclick="showDetail(7)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>8</td>
+            <td>35,4 m²</td>
+            <td>Z</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>Tato kancelář je sdílený protor s kanceláří č.7, v případě zájmu lze rozdělit</td>
+
+            <td>
+              <button onclick="showDetail(8)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>9</td>
+            <td>16,5 m²</td>
+            <td>Z</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>-</td>
+
+            <td>
+              <button onclick="showDetail(9)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <!-- 2 PATRO -->
+          <tr class="floor-row">
+            <td colspan="6">2. PATRO</td>
+          </tr>
+
+          <tr>
+            <td>10</td>
+            <td>19,4 m²</td>
+            <td>JZ</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>Tato kancelář je sdílený prostor s kanceláří č.11, v případě zájmu lze rozdělit</td>
+
+            <td>
+              <button onclick="showDetail(10)" class="detail-button"> 
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>11</td>
+            <td>92,6 m²</td>
+            <td>S</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>Tato kancelář je sdílený prostor s kanceláří č.10, v případě zájmu lze rozdělit</td>
+
+            <td>
+              <button onclick="showDetail(11)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>12</td>
+            <td>31,9 m²</td>
+            <td>V</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>-</td>
+
+            <td>
+              <button onclick="showDetail(12)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>13</td>
+            <td>70,1 m²</td>
+            <td>SV</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>-</td>
+
+            <td>
+              <button onclick="showDetail(13)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>14</td>
+            <td>38,5 m²</td>
+            <td>J</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>-</td>
+
+            <td>
+              <button onclick="showDetail(14)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>15</td>
+            <td>70,1 m²</td>
+            <td>JZ</td>
+
+            <td>
+              <span class="status leased">
+                Obsazeno
+              </span>
+            </td>
+
+            <td>-</td>
+
+            <td>
+              <button onclick="showDetail(15)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>16</td>
+            <td>16,5 m²</td>
+            <td>JZ</td>
+
+            <td>
+              <span class="status leased">
+              Obsazeno
+              </span>
+            </td>
+
+            <td>-</td>
+
+            <td>
+              <button onclick="showDetail(16)" class="detail-button">
+                Detail
+              </button>
+            </td>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+  </section>
+
+
+<section class="common-spaces">
+  <div class="container">
+    <h2>Společné prostory</h2>
+    <p>
+      Moderní sdílené prostory pro vaše podnikání, meetingy i každodenní komfort.
+    </p>
+
+    <div class="spaces-grid">
+
+      <a href="#" class="space-card large">
+        <img src="zasedacka.jpg" alt="">
+        <span>Zasedací místnost</span>
+      </a>
+
+      <a href="#" class="space-card">
+        <img src="kuchynka.jpeg" alt="">
+        <span>Kuchyňka</span>
+      </a>
+
+      <a href="#" class="space-card">
+        <img src="vytah.jpeg" alt="">
+        <span>Výtah</span>
+      </a>
+
+      <a href="#" class="space-card">
+        <img src="schody.jpeg" alt="">
+        <span>Schody</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="premium-cta">
+
+  <div class="cta-content">
+
+    <div class="cta-left">
+
+      <h2>Máte zájem o konkrétní kancelář?</h2>
+
+      <p>
+        Zjistěte aktuální dostupnost a podmínky pronájmu
+      </p>
+
+    </div>
+
+    <div class="cta-divider"></div>
+
+    <div class="cta-contact">
+
+      <div class="contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Litovelská 1375, Uničov</span>
+      </div>
+
+      <div class="contact-divider"></div>
+
+      <div class="contact-item">
+         <i class="fa-solid fa-phone"></i>
+
+        <a href="tel:+420601202022">
+          +420 601 20 20 22
+        </a>
+      </div>
+
+      <div class="contact-divider"></div>
+
+      <div class="contact-item">
+         <i class="fa-solid fa-envelope"></i>
+
+        <a href="mailto:info@neon.cz">
+          info@neonpark.cz
+        </a>
+      </div>
+
+    </div>
+
+    <a href="#"
+    onclick="showPage('contact'); return false;"
+    class="cta-btn">
+
+      Kontaktovat nás →
+
+    </a>
+
+  </div>
+
+</section>
+</section>
+</div>
+
+  <!-- CTA -->
+
+<!-- KONTAKT -->
+
+<div id="contact" class="page">
+
+  <div class="contact-bg">
+
+    <!-- HERO -->
+    <section class="contact-hero">
+
+      <div class="contact-hero-content">
+
+        <span class="contact-mini-label">
+  NEON office park
+  <span>Uničov</span>
+</span>
+
+        <h1>Kontakt</h1>
+
+        <p>
+          Jsme připraveni vám pomoci s výběrem
+          moderních kancelářských prostor.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT CARD -->
+    <section class="contact-section">
+
+      <div class="contact-card">
+
+        <div class="contact-info">
+
+          <div class="contact-box address">
+            <span>Adresa</span>
+            <p>Litovelská 1375, Uničov 783 91</p>
+          </div>
+
+          <div class="contact-box">
+            <span>Email</span>
+            <a href="mailto:info@neon.cz">
+              info@neonpark.cz
+            </a>
+          </div>
+
+          <div class="contact-box">
+            <span>Telefon</span>
+            <a href="tel:+420601202022">
+              +420 601 20 20 22
+            </a>
+          </div>
+
+        </div>
+
+        <div class="contact-map">
+
+          <iframe style="border:none" src="https://mapy.com/s/degocazohe" width="500" height="333" frameborder="0"></iframe>
+          
+
+        </div>
+
+      </div>
+
+    </section>
+     <!-- CTA (OPRAVENO!) -->
+   <section class="premium-cta">
+
+  <div class="cta-content">
+
+    <div class="cta-left">
+
+      <h2>Jsme vám k dispozici</h2>
+
+      <p>
+        Neváhejte nás kontaktovat telefonicky nebo e-mailem
+      </p>
+
+    </div>
+
+    <div class="cta-divider"></div>
+
+    <div class="cta-contact">
+
+      <div class="contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Litovelská 1375, Uničov</span>
+      </div>
+
+      <div class="contact-divider"></div>
+
+      <div class="contact-item">
+         <i class="fa-solid fa-phone"></i>
+
+        <a href="tel:+420601202022">
+          +420 601 20 20 22
+        </a>
+      </div>
+
+      <div class="contact-divider"></div>
+
+      <div class="contact-item">
+         <i class="fa-solid fa-envelope"></i>
+
+        <a href="mailto:info@neon.cz">
+          info@neonpark.cz
+        </a>
+      </div>
+
+    </div>
+
+
+  </div>
+
+</section>
+
+  </div>
+
+
+
+
+
+
+</section>
+
+</div>
+
+
+<footer>
+© 2026 NEON office park
+</footer>
+
+    <div class="lightbox" id="lightbox">
+
+  <button class="lightbox-close" onclick="closeLightbox()">
+    &times;
+  </button>
+
+  <button class="lightbox-arrow left" onclick="changeGallery(-1)">
+    ‹
+  </button>
+
+  <img id="lightbox-img" src="" alt="">
+
+  <button class="lightbox-arrow right" onclick="changeGallery(1)">
+    ›
+  </button>
+
+</div>
+
+
+<div id="officeModal" class="office-modal">
+
+  <div class="office-detail-box">
+
+    <!-- zavřít -->
+    <span class="close-btn" onclick="closeOffice()">
+      &times;
+    </span>
+
+    <!-- CONTENT -->
+    <div class="office-content">
+
+      <h2 id="modalTitle"></h2>
+
+      <!-- INFO BOXES -->
+      <div class="office-grid">
+
+        <div class="office-item">
+           <span class="price-label">Výměra</span>
+          
+          <strong><span id="officeSize"></span></strong>
+        </div>
+
+
+        <div class="office-item">
+           <span class="price-label">Nájem</span>
+          
+          <strong><span id="officeRent"></span></strong>
+        </div>
+
+        <div class="office-item">
+           <span class="price-label">Služby</span>
+          
+          <strong><span id="officeServices"></span></strong>
+        </div>
+
+        <div class="office-item">
+           <span class="price-label">Kauce (výši 3 nájmů) </span>
+          
+          <strong><span id="officeDeposit"></span></strong>
+        </div>
+
+      </div>
+
+      <!-- VYBAVENÍ -->
+      <div class="equipment-box">
+
+        <h3>Vybavení</h3>
+
+        <div id="officeEquipment"></div>
+
+      </div>
+
+      <!-- CELKEM -->
+      <div class="office-total">
+        <span class="total-label">Celková cena měsíčně</span>
+         <span id="officeTotal"></span>
+      </div>
+
+
+      <!-- FOTO -->
+    <div class="gallery">
+  <img id="mainPhoto" class="big-photo">
+
+  <div class="small-photos">
+    <img id="photo1">
+    <img id="photo2">
+    <img id="photo3">
+    <img id="photo4">
+  </div>
+</div>
+
+      <!-- CTA -->
+      <button class="office-btn" onclick="openNxModal()">
+  Mám zájem
+</button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- FULLSCREEN -->
+
+<div id="imageModal">
+
+  <span class="image-close" onclick="closeImage()">
+    &times;
+  </span>
+
+  <button class="nav-btn left" onclick="changeOfficeImage(-1)">
+    ❮
+  </button>
+
+  <img id="fullImage">
+
+  <button class="nav-btn right" onclick="changeOfficeImage(1)">
+    ❯
+  </button>
+
+</div>
+
+
+
+
+      <script>
+
+/* =========================
+   PAGE SWITCH
+========================= */
+
+function showPage(id){
+
+  document.querySelectorAll(".page").forEach(page => {
+    page.classList.remove("active");
+  });
+
+  document.getElementById(id)
+    .classList.add("active");
+
+  setBackground(id);
+
+  window.scrollTo(0,0);
+}
+
+/* =========================
+   FOTOGALERIE
+========================= */
+/* =========================
+   FOTOGALERIE
+========================= */
+
+let gallery = [];
+let galleryIndex = 0;
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const galleryItems =
+    document.querySelectorAll(".space-card, .gallery-home-grid img");
+
+  gallery = Array.from(
+    document.querySelectorAll(".space-card img, .gallery-home-grid img")
+  );
+
+  galleryItems.forEach((item, index) => {
+
+    item.addEventListener("click", (e) => {
+
+      e.preventDefault();
+
+      galleryIndex = index;
+
+      openLightbox();
+
+    });
+
+  });
+
+});
+
+/* OPEN */
+
+function openLightbox(){
+
+  const lightbox =
+    document.getElementById("lightbox");
+
+  const lightboxImg =
+    document.getElementById("lightbox-img");
+
+  lightbox.style.display = "flex";
+
+  lightboxImg.src =
+    gallery[galleryIndex].src;
+}
+
+
+/* CHANGE */
+
+function changeGallery(step){
+
+  galleryIndex += step;
+
+  if(galleryIndex < 0){
+    galleryIndex = gallery.length - 1;
+  }
+
+  if(galleryIndex >= gallery.length){
+    galleryIndex = 0;
+  }
+
+  document.getElementById("lightbox-img").src =
+    gallery[galleryIndex].src;
+}
+
+/* CLOSE */
+
+function closeLightbox(){
+
+  document.getElementById("lightbox").style.display =
+    "none";
+}
+
+/* CLICK OUTSIDE */
+
+document.getElementById("lightbox")
+.addEventListener("click", (e) => {
+
+  if(
+    e.target.id === "lightbox"
+  ){
+    closeLightbox();
+  }
+
+});
+
+/* KEYBOARD */
+
+document.addEventListener("keydown", (e) => {
+
+  const lightbox =
+    document.getElementById("lightbox");
+
+  if(lightbox.style.display !== "flex") return;
+
+  if(e.key === "ArrowRight"){
+    changeGallery(1);
+  }
+
+  if(e.key === "ArrowLeft"){
+    changeGallery(-1);
+  }
+
+  if(e.key === "Escape"){
+    closeLightbox();
+  }
+
+});
+
+/* =========================
+   KANCELÁŘE MODAL
+========================= */
+
+const offices = {
+
+ 
+  1:{
+    title:"Kancelář č.1",
+
+    size:"25,2 m²",
+
+    rent:"7 056 Kč / měsíc",
+    services:"1 764 Kč / měsíc",
+
+    
+
+    total:"8 820 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg",
+      "kancelar1.jpeg",
+      "kancelar.jpeg"
+    ]
+  },
+
+  2:{
+    title:"Kancelář č.2",
+
+    size:"43 m²",
+
+    rent:"12 040 Kč / měsíc",
+    services:"3 010 Kč / měsíc",
+
+   
+
+    total:"15 050 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  3:{
+    title:"Kancelář č.3",
+
+    size:"74,5 m²",
+ 
+
+    rent:"20 860 Kč / měsíc",
+    services:"5 215 Kč / měsíc",
+
+    
+
+    total:"26 075 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+      
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  4:{
+    title:"Kancelář č.4",
+
+    size:"21 m²",
+
+    rent:"5 880 Kč / měsíc",
+    services:"1 470 Kč / měsíc",
+
+    
+
+    total:"7 350 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+      
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  5:{
+    title:"Kancelář č.5",
+
+    size:"78 m²",
+
+    rent:"21 840 Kč / měsíc",
+    services:"5 640 Kč / měsíc",
+
+
+    total:"27 300 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  6:{
+    title:"Kancelář č.6",
+
+    size:"22 m²",
+
+    rent:"6 160 Kč / měsíc",
+    services:"1 540 Kč / měsíc",
+
+    
+
+    total:"7 700 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  7:{
+    title:"Kancelář č.7",
+
+    size:"33,6 m²",
+
+    rent:"9 408Kč / měsíc",
+    services:"2 352 Kč / měsíc",
+
+    
+
+    total:"11 760 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+      
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  8:{
+    title:"Kancelář č.8",
+
+    size:"35,4 m²",
+
+    rent:"9 912 Kč / měsíc",
+    services:"2 478 Kč / měsíc",
+
+    
+
+    total:"12 390 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+      
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  9:{
+    title:"Kancelář č.9",
+
+    size:"16,5 m²",
+
+    rent:"4 620 Kč / měsíc",
+    services:"1 155 Kč / měsíc",
+
+    
+
+    total:"5 775 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah" 
+      
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  10:{
+    title:"Kancelář č.10",
+
+    size:"19,4 m²",
+
+    rent:"5 432 Kč / měsíc",
+    services:"1 358 Kč / měsíc",
+
+    
+
+    total:"6 790 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah",
+      
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  11:{
+    title:"Kancelář č.11",
+
+    size:"92,6 m²",
+
+    rent:"25 928 Kč / měsíc",
+    services:"6 482 Kč / měsíc",
+
+    
+
+    total:"32 410 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+      
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  12:{
+    title:"Kancelář č.12",
+
+    size:"31,9 m²",
+
+    rent:"8 932 Kč / měsíc",
+    services:"2 233 Kč / měsíc",
+
+    
+
+    total:"11 165 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+      
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  13:{
+    title:"Kancelář č.13",
+
+    size:"70,1 m²",
+
+    rent:"19 628 Kč / měsíc",
+    services:"4 907 Kč / měsíc",
+
+    
+
+    total:"24 535 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  14:{
+    title:"Kancelář č.14",
+
+    size:"38,5 m²",
+
+    rent:"10 780 Kč / měsíc",
+    services:"2 695 Kč / měsíc",
+
+
+    total:"13 475 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  15:{
+    title:"Kancelář č.15",
+
+    size:"70,1 m²",
+
+    rent:"19 628 Kč / měsíc",
+    services:"4 907 Kč / měsíc",
+
+    
+
+    total:"24 535 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  },
+
+  16:{
+    title:"Kancelář č.16",
+
+    size:"16,5 m²",
+
+    rent:"4 620 Kč / měsíc",
+    services:"1 155 Kč / měsíc",
+
+    
+
+    total:"5 775 Kč / měsíc",
+
+    equipment:[
+      "Kancelář vybavená nábytkem",
+      "Prostor klimatizovaný",
+      "Wi-Fi",
+      "Parkování přímo v areálu",
+      "Společná kuchyňka na patře",
+      "Bezbariérový přístup - výtah"
+    ],
+
+    photos:[
+      "kancelar7.1.jpeg",
+      "kancelar7.2.jpeg"
+    ]
+  }
+
+
+};
+
+
+let officePhotos = [];
+let officeIndex = 0;
+
+/* DETAIL */
+
+function showDetail(id){
+
+  const office = offices[id];
+
+  if(!office) return;
+
+  officePhotos = office.photos;
+  officeIndex = 0;
+
+  document.getElementById("modalTitle").textContent =
+    office.title;
+
+  document.getElementById("mainPhoto").src =
+  office.photos[0];
+
+document.getElementById("photo1").src =
+  office.photos[1];
+
+document.getElementById("photo2").src =
+  office.photos[2];
+
+document.getElementById("photo3").src =
+  office.photos[3];
+
+document.getElementById("photo4").src =
+  office.photos[4];
+
+  document.getElementById("officeSize").textContent =
+    office.size;
+
+  document.getElementById("officeRent").textContent =
+    office.rent;
+
+  document.getElementById("officeServices").textContent =
+    office.services;
+
+  const rentNumber = Number(
+  office.rent.replace(/\D/g, "")
+);
+
+document.getElementById("officeDeposit").textContent =
+  (rentNumber * 3).toLocaleString("cs-CZ") + " Kč";
+
+  document.getElementById("officeTotal").textContent =
+    office.total;
+
+  /* vybavení */
+
+  let equipmentHTML = "";
+
+  office.equipment.forEach(item => {
+
+    equipmentHTML += `
+      <div class="equipment-item">
+        ✅ ${item}
+      </div>
+    `;
+
+  });
+
+  document.getElementById("officeEquipment").innerHTML =
+    equipmentHTML;
+
+  document.getElementById("officeModal").style.display =
+    "block";
+}
+
+/* FULLSCREEN */
+
+function openOfficeFullscreen(){
+
+  document.getElementById("fullImage").src =
+    officePhotos[officeIndex];
+
+  document.getElementById("imageModal")
+  .classList.add("active");
+}
+
+/* ZMĚNA FOTO */
+
+function changeOfficeImage(step){
+
+  officeIndex += step;
+
+  if(officeIndex < 0){
+    officeIndex = officePhotos.length - 1;
+  }
+
+  if(officeIndex >= officePhotos.length){
+    officeIndex = 0;
+  }
+
+  document.getElementById("fullImage").src =
+    officePhotos[officeIndex];
+}
+
+/* ZAVŘÍT */
+
+function closeOffice(){
+
+  document.getElementById("officeModal").style.display =
+    "none";
+}
+
+
+
+function closeImage(){
+
+  document.getElementById("imageModal")
+    .classList.remove("active");
+}
+
+/* KLIK MIMO */
+
+document.getElementById("officeModal")
+.addEventListener("click", function(e){
+
+  if(e.target.id === "officeModal"){
+    closeOffice();
+  }
+
+});
+
+document.getElementById("imageModal")
+.addEventListener("click", function(e){
+
+  if(e.target.id === "imageModal"){
+    closeImage();
+  }
+
+});
+
+document.getElementById("mainPhoto")
+.addEventListener("click", function(){
+
+  officeIndex = 0;
+  openOfficeFullscreen();
+
+});
+
+document.getElementById("photo1")
+.addEventListener("click", function(){
+
+  officeIndex = 1;
+  openOfficeFullscreen();
+
+});
+
+document.getElementById("photo2")
+.addEventListener("click", function(){
+
+  officeIndex = 2;
+  openOfficeFullscreen();
+
+});
+
+document.getElementById("photo3")
+.addEventListener("click", function(){
+
+  officeIndex = 3;
+  openOfficeFullscreen();
+
+});
+
+document.getElementById("photo4")
+.addEventListener("click", function(){
+
+  officeIndex = 4;
+  openOfficeFullscreen();
+
+});
+
+
+/* =========================
+   INIT
+========================= */
+
+
+
+window.onload = function(){
+  setBackground("home"); // 👈 startovní stránka
+};
+
+function openNxModal(){
+
+  document.getElementById("nxModal").style.display = "flex";
+
+}
+
+function closeNxModal(){
+
+  document.getElementById("nxModal").style.display = "none";
+
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const table = document.querySelector(".availability-table");
+  if (!table) return;
+
+  const rows = table.querySelectorAll("tbody tr");
+
+  const grid = document.createElement("div");
+  grid.className = "office-mobile-grid";
+
+  rows.forEach(row => {
+
+    const cols = row.querySelectorAll("td");
+
+    // přeskočit hlavičky pater
+    if (!cols.length || row.classList.contains("floor-row")) return;
+
+    const number = cols[0]?.innerText.trim();
+const size = cols[1]?.innerText.trim();
+
+const office = offices[parseInt(number)];
+const rent = office?.rent || "";
+
+    const img = row.querySelector("img")
+      ? row.querySelector("img").src
+      : "kancelar7.1.jpeg";
+
+    const card = document.createElement("div");
+    card.className = "office-mobile-card";
+
+    card.innerHTML = `
+      <img src="${img}">
+      <div class="office-mobile-content">
+        <div class="office-title">Kancelář č. ${number}</div>
+        <div class="office-size">${size}</div>
+        <div class="office-price">${rent}</div>
+        <button onclick="showDetail(${number})">Detail</button>
+      </div>
+    `;
+
+    grid.appendChild(card);
+  });
+
+  // vložit NAD tabulku (aby byla jistota že ji najdeš)
+  table.parentElement.insertBefore(grid, table);
+
+});
+
+</script>
+
+
+<div class="nx-modal" id="nxModal" onclick="closeNxModal()">
+
+  <div class="nx-modal-box" onclick="event.stopPropagation()">
+
+    <button class="nx-modal-close" onclick="closeNxModal()">
+      ×
+    </button>
+
+    <h2>Nezávazná poptávka</h2>
+
+    <p>
+      Vyplňte krátký formulář a my se vám ozveme.
+    </p>
+
+    <form action="send.php" method="POST">
+
+      <div class="nx-form-group">
+        <input type="text" name="name" placeholder="Jméno" required>
+      </div>
+
+      <div class="nx-form-group">
+        <input type="email" name="email" placeholder="E-mail" required>
+      </div>
+
+      <div class="nx-form-group">
+        <input type="tel" name="phone" placeholder="Telefon">
+      </div>
+
+      <div class="nx-form-group">
+        <textarea
+          name="message"
+          rows="4"
+          placeholder="Vaše zpráva"></textarea>
+      </div>
+
+      <button type="submit" class="nx-submit-btn">
+        Odeslat poptávku
+      </button>
+
+    </form>
+
+  </div>
+
+</div>
+</body>
+</html>
