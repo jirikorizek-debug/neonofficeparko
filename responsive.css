@@ -1,0 +1,259 @@
+@media (max-width: 480px) {
+
+  /* =========================
+     GLOBAL
+  ========================= */
+
+  body {
+    overflow-x: hidden;
+  }
+
+  section {
+    padding: 40px 14px;
+  }
+
+  h1 {
+    font-size: 26px;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  button,
+  .cta-btn,
+  .hero-btn {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  /* =========================================================
+     HOME - HERO
+  ========================================================= */
+
+  .hero-section {
+    padding: 90px 14px 40px;
+  }
+
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 28px;
+  }
+
+  /* =========================================================
+     FEATURE BAR (2 + 2)
+  ========================================================= */
+
+  .feature-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .feature-box {
+    min-width: 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .feature-box h3 {
+    font-size: 12px;
+  }
+
+  .feature-box p {
+    font-size: 11px;
+  }
+
+  /* =========================================================
+     VYBRANÉ KANCELÁŘE (2 + 2)
+  ========================================================= */
+
+  .office-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .office-card {
+    min-width: 0;
+  }
+
+  .office-card img {
+    height: 110px;
+    object-fit: cover;
+  }
+
+  .office-info h3 {
+    font-size: 12px;
+  }
+
+  .office-info p {
+    font-size: 11px;
+  }
+
+  .office-info button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  /* =========================================================
+     STATS GRID (6 KARET = 2x3)
+  ========================================================= */
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .stat-box {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .stat-box h3 {
+    font-size: 14px;
+  }
+
+  .stat-box span {
+    font-size: 11px;
+  }
+
+  /* =========================================================
+     GALLERY (2 + 2)
+  ========================================================= */
+
+  .gallery-home-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .gallery-item {
+    height: 120px;
+    overflow: hidden;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* =========================================================
+     CTA
+  ========================================================= */
+
+  .cta-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .cta-contact {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  /* =========================================================
+     OFFICES PAGE HERO
+  ========================================================= */
+
+  .nx-office-hero {
+    padding: 80px 14px 40px;
+    text-align: center;
+  }
+
+  .nx-office-title {
+    font-size: 24px;
+  }
+
+  /* =========================================================
+     OFFICES GRID (2 + 2 + 2…)
+  ========================================================= */
+
+  .office-mobile-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .office-mobile-card {
+    min-width: 0;
+  }
+
+  .office-mobile-card img {
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .office-title {
+    font-size: 12px;
+  }
+
+  .office-size,
+  .office-price {
+    font-size: 11px;
+  }
+
+  /* =========================================================
+     OFFICE GALLERY (2 + 2)
+  ========================================================= */
+
+  .spaces-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .space-card img {
+    height: 110px;
+    object-fit: cover;
+  }
+
+  /* =========================================================
+     CONTACT PAGE
+  ========================================================= */
+
+  .contact-hero {
+    text-align: center;
+    padding: 80px 14px 20px;
+  }
+
+  .contact-section {
+    padding: 20px 14px;
+  }
+
+  .contact-info {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-map iframe {
+    width: 100%;
+    height: 220px;
+  }
+
+  .contact-card {
+    box-shadow: none;
+  }
+
+}
+
+
+
